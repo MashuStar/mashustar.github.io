@@ -36,7 +36,7 @@ hr {
 .brand-img {
     max-width: 50px;
     max-height: inherit;
-    border-radius: 5%;
+    border-radius: 10%;
 }
 
 .intro {
@@ -71,6 +71,12 @@ hr {
 .prices {
     background-color: #C4DDFF;
     padding: 20px 60px;
+}
+
+.skills {
+    background-color: #335aa8;
+    color: white;
+    padding: 60px;
 }
 
 .somespace {
