@@ -57,7 +57,7 @@ hr {
 }
 
 .zoom-img {
-    max-width: 70px;
+    max-width: 150px;
     max-height: inherit;
     border-radius: 5%;
     transition: all 0.3s;
@@ -65,7 +65,15 @@ hr {
 }
 
 .zoom-img:hover {
-    transform: scale(8);
+    transform: scale(4);
+    -webkit-transform: scale(4);
+    -moz-transform: scale(4);
+    -ms-transform: scale(4);
+    -o-transform: scale(4);
+}
+
+.commsheet {
+    max-width: 700px;
 }
 
 .prices {
