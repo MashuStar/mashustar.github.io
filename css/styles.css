@@ -61,19 +61,24 @@ hr {
     max-height: inherit;
     border-radius: 5%;
     transition: all 0.3s;
-    
 }
 
 .zoom-img:hover {
     transform: scale(4);
-    -webkit-transform: scale(4);
-    -moz-transform: scale(4);
-    -ms-transform: scale(4);
-    -o-transform: scale(4);
 }
 
 .commsheet {
-    max-width: 700px;
+    max-width: 100%;
+    border-radius: 5%;
+    transition: all 0.3s;
+}
+
+.commsheet:hover {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
 }
 
 .prices {
